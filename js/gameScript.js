@@ -1,5 +1,6 @@
 let humanScore = 0;
 let computerScore = 0;
+let playRounds = 5;
 
 function getComputerChoice(){
 const choices= ["rock", "paper", "scissors"]
@@ -49,8 +50,19 @@ function playRound(humanChoice, computerChoice){
 
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
 
-console.log(playRound(humanSelection, computerSelection));
 
+//console.log(playRound(humanSelection, computerSelection));
+
+function playGame(){
+    while (playRounds > 0){
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+        console.log(playRound(humanSelection, computerSelection));
+        playRounds --;
+    }
+    console.log("Game Over!");
+    console.log(`Final Score - Human: ${humanScore}, Computer: ${computerScore}`);
+}
+
+playGame();
