@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <style>
+        button {
+            font-size: 16px;
+            padding: 10px;
+            margin: 5px;
+        }
+        #results, #score {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <script src="./js/gameScript.js"></script>
+
 <!--    <dialog open>-->
 <!--        <p>Rock, Paper or Scissors? Make your choice</p>-->
+
+    <h1>Rock, Paper or Scissors? Make your choice...</h1>
+
+    <div>
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+
+    <div id="results"></div>
+    <div id="score"></div>
 <!--    </dialog>-->
-   
+<script src="./js/gameScript.js"></script>
 </body>
 </html>
