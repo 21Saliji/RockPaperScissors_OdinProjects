@@ -1,4 +1,6 @@
-console.log("Hello World")
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice(){
 const choices= ["rock", "paper", "scissors"]
 const randomChoice = choices[Math.floor(Math.random() * choices.length)]
