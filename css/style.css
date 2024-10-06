@@ -7,7 +7,7 @@
     }
 
     body{
-    background-colour: white;
+    background-color: white;
     color:black;
     }
 
@@ -22,8 +22,21 @@
     margin: 5px;
     }
 
-    #toggle{
-    display:top-right;}
+   #toggle {
+       position: absolute;
+       top: 10px;
+       right: 10px;
+       background: none;
+       border: none;
+       cursor: pointer;
+       font-size: 24px;
+   }
+
+   #toggle i {
+       transition: opacity 0.3s ease;
+   }
+
+
 
     #results, #score {
     margin-top: 20px;
