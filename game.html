@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <style>
-        button {
-            font-size: 16px;
-            padding: 10px;
-            margin: 5px;
-        }
-        #results, #score {
-            margin-top: 20px;
-            font-size: 18px;
-        }
+
     </style>
 </head>
 <body>
 
-<!--    <dialog open>-->
-<!--        <p>Rock, Paper or Scissors? Make your choice</p>-->
+<button id="toggle" onclick="myFunction()">
+    <i class='bx bx-sun' id="sun-icon"></i>
+<!--    <box-icon name='sun' id="sun-icon"></box-icon>-->
+<!--    <box-icon name='moon' id="moon-icon"></box-icon>-->
+    <i class='bx bx-moon' id="moon-icon" ></i>
+</button>
+<div id="first">
 
-    <h1>Rock, Paper or Scissors? Make your choice...</h1>
-
+    <h1>Rock, Paper or Scissors?<br><img src="images/rock-paper-scissors.png"><br>Make your choice...<br></h1>
     <div>
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+        <button id="rock">Rock <img src="images/fist.png"></button>
+        <button id="paper">Paper <img src="images/hand-paper.png"></button>
+        <button id="scissors">Scissors <img src="images/scissors.png"></button>
     </div>
 
     <div id="results"></div>
     <div id="score"></div>
-<!--    </dialog>-->
+</div>
+
 <script src="./js/gameScript.js"></script>
 </body>
 </html>
