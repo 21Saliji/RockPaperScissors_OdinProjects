@@ -36,7 +36,13 @@
        transition: opacity 0.3s ease;
    }
 
+   #sun-icon {
+       color: gold;
+   }
 
+   #moon-icon {
+       color: white;
+   }
 
     #results, #score {
     margin-top: 20px;
