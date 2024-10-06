@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let computerScore = 0;
     let playRounds = 5;
 
+
+
     function getComputerChoice() {
         const choices = ["rock", "paper", "scissors"];
         const randomChoice = choices[Math.floor(Math.random() * choices.length)];
@@ -64,3 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateScore();
 });
+function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }

@@ -1,0 +1,38 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    body{
+    background-colour: white;
+    color:black;
+    }
+
+    .dark-mode{
+    background-color: black;
+    color: white;
+    }
+
+    button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    }
+
+    #toggle{
+    display:top-right;}
+
+    #results, #score {
+    margin-top: 20px;
+    font-size: 18px;
+    }
+
+    #first {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    }
